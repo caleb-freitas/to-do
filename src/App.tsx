@@ -1,7 +1,6 @@
-import { useState } from 'react'
+import './global.css'
+import { Header } from './components/Header'
 
 export function App() {
-  return (
-    <h1>Hello!</h1>
-  )
+  return <Header />
 }
