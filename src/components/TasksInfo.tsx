@@ -1,4 +1,4 @@
-import styles from './Task.module.css'
+import styles from './TasksInfo.module.css'
 
 export function TasksInfo() {
   return (
