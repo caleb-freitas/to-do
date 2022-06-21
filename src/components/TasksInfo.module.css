@@ -1,0 +1,32 @@
+.tasks {
+  width: 46rem;
+  margin: 4rem auto;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.created {
+  color: var(--blue);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.finished {
+  color: var(--purple);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.counter {
+  background: var(--gray-500);
+  padding: 0.1rem 0.5rem;
+  border-radius: 16px;
+  color: var(--gray-200);
+  font-weight: bold;
+}
