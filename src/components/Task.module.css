@@ -1,0 +1,45 @@
+.wrapper {
+  width: 45.5rem;
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--gray-500);
+}
+
+.wrapper p {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.wrapper input {
+  /* background-color: var(--gray-500);
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;*/
+  cursor: pointer;
+}
+
+.wrapper button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.wrapper button[type="submit"]:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
